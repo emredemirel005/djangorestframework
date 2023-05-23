@@ -8,5 +8,9 @@ class Books(models.Model):
     page_number = models.IntegerField()
     stock = models.IntegerField()
 
+    
+    
     def __str__(self):
         return self.title
+    
+    
