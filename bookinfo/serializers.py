@@ -8,3 +8,5 @@ class BooksSerializer(serializers.ModelSerializer):
     publish_date = serializers.DateField()
     page_number = serializers.IntegerField()
     stock = serializers.IntegerField()
+
+    
